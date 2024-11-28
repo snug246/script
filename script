@@ -1,0 +1,249 @@
+print("Made By Westin")
+
+warn("a")
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Key Test", HidePremium = false, SaveConfig = true, ConfigFolder = "Key Test"})
+
+local Tab0 = Window:MakeTab({
+	Name = "Key",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+OrionLib:MakeNotification({
+	Name = "Loading Script",
+	Content = "westin is the goat",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+
+
+Tab0:AddButton({
+    Name = 'Getkey',
+    Callback = function()
+        setclipboard("ABC")
+        OrionLib:MakeNotification({
+	Name = "Key:",
+	Content = "ABC",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+    end
+})
+
+
+
+OrionLib:MakeNotification({
+	Name = "Loaded Script",
+	Content = "Wesin made this script",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+
+Tab0:AddTextbox({
+	Name = "Key",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+        print (Value)
+        if Value == "ABC" then
+            
+            warn ('frr')
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Rulic Hub 1.1", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Universal Script",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+OrionLib:MakeNotification({
+	Name = "Loading Script",
+	Content = "Notification content... what will it say??",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+
+
+
+
+Tab:AddButton({
+    Name = 'Universal Tool giver(WIP)',
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub-Backup/main/gametoolgiver.lua"))()
+    end
+})
+Tab:AddButton({
+    Name = 'Delete Mob Cheat Engine(Aimbot)',
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Mick-gordon/Hyper-Escape/main/DeleteMobCheatEngine.lua'))()
+    end
+})
+Tab:AddButton({
+    Name = 'inf yield',
+    Callback = function()
+        warn('loading')
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+warn ("my name is tanako1234567")
+    end
+})
+
+Tab:AddButton({
+    Name = "Dex V5",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/dyyll/Dex-V5-leak/refs/heads/main/Dex%20V5.lua'))()
+    end
+})
+
+
+local Tab2 = Window:MakeTab({
+	Name = "Others Script Hub",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+
+Tab2:AddButton({
+    Name = "use this",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/samuraa1/Solara-Hub/refs/heads/main/Solara%20Hub.lua"))()
+    end
+})
+
+Tab:AddTextbox({
+	Name = "Hitbox (not work on any game)",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+            
+            _G.HeadSizeTest = Value
+            local HeadSize = Value
+local IsDisabled = true
+local IsTeamCheckEnabled = false 
+
+game:GetService('RunService').RenderStepped:Connect(function()
+    if IsDisabled then
+        local localPlayer = game:GetService('Players').LocalPlayer -- others
+        if not localPlayer then return end
+        
+        local localPlayerTeam = localPlayer.Team
+        
+        for _, player in ipairs(game:GetService('Players'):GetPlayers()) do
+            if player ~= localPlayer and (not IsTeamCheckEnabled or player.Team ~= localPlayerTeam) then
+                local humanoidRootPart = player.Character and player.Character:FindFirstChild("HumanoidRootPart")
+                if humanoidRootPart then
+                    humanoidRootPart.Size = Vector3.new(HeadSize, HeadSize, HeadSize)
+                    humanoidRootPart.Transparency = 0.9
+                    humanoidRootPart.BrickColor = BrickColor.new("Really white")
+                    humanoidRootPart.Material = Enum.Material.Neon
+                    humanoidRootPart.CanCollide = false
+                end
+            end
+        end
+    end
+end)
+
+    end
+})
+
+
+Tab:AddButton({
+    Name = 'hitbox default',
+    Callback = function()
+        _G.HeadSizeTest = 3
+        local HeadSize = 3
+local IsDisabled = true
+local IsTeamCheckEnabled = false 
+
+game:GetService('RunService').RenderStepped:Connect(function()
+    if IsDisabled then
+        local localPlayer = game:GetService('Players').LocalPlayer -- others
+        if not localPlayer then return end
+        
+        local localPlayerTeam = localPlayer.Team
+        
+        for _, player in ipairs(game:GetService('Players'):GetPlayers()) do
+            if player ~= localPlayer and (not IsTeamCheckEnabled or player.Team ~= localPlayerTeam) then
+                local humanoidRootPart = player.Character and player.Character:FindFirstChild("HumanoidRootPart")
+                if humanoidRootPart then
+                    humanoidRootPart.Size = Vector3.new(HeadSize, HeadSize, HeadSize)
+                    humanoidRootPart.Transparency = 0.9
+                    humanoidRootPart.BrickColor = BrickColor.new("Really white")
+                    humanoidRootPart.Material = Enum.Material.Neon
+                    humanoidRootPart.CanCollide = false
+                end
+            end
+        end
+    end
+end)
+    end
+})
+
+
+
+
+
+local Tab4 = Window:MakeTab({
+	Name = "Fisch",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab4:AddButton({
+    Name = 'Ouxi (All Executor)',
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+    end
+})
+
+
+
+
+
+
+
+
+
+local Tab7 = Window:MakeTab({
+	Name = "Arsenal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab7:AddButton({
+    Name = 'QuotasHub (OP)',
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Insertl/QuotasHub/main/BETAv1.3"))()
+    end
+})
+ 
+
+
+OrionLib:MakeNotification({
+	Name = "Loaded Script",
+	Content = "Enjoy",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+
+})
+
+print(Value)
+        end
+    end
+})
+warn("abc")
+
+
+
+
+
+
+print("█▀█ █░█ █░░ █ █▀▀ █░█ ▀█")
+print("█▀▄ █▄█ █▄▄ █ █▄▄ ▀▄▀ █▄")
+print("▀  ▀")
