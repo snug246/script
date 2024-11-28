@@ -61,7 +61,7 @@ local Tab = Window:MakeTab({
 })
 OrionLib:MakeNotification({
 	Name = "Loading Script",
-	Content = "Notification content... what will it say??",
+	Content = "westin the goat",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
@@ -108,7 +108,7 @@ local Tab2 = Window:MakeTab({
 
 
 Tab2:AddButton({
-    Name = "use this",
+    Name = "solara hub",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/samuraa1/Solara-Hub/refs/heads/main/Solara%20Hub.lua"))()
     end
@@ -194,7 +194,7 @@ local Tab4 = Window:MakeTab({
 })
 
 Tab4:AddButton({
-    Name = 'Ouxi (All Executor)',
+    Name = 'speedhub',
     Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
     end
@@ -242,8 +242,3 @@ warn("abc")
 
 
 
-
-
-print("█▀█ █░█ █░░ █ █▀▀ █░█ ▀█")
-print("█▀▄ █▄█ █▄▄ █ █▄▄ ▀▄▀ █▄")
-print("▀  ▀")
